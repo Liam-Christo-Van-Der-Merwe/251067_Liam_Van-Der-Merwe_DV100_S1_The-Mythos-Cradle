@@ -1,14 +1,51 @@
 body{
 
-
+background-color: blue;
 
 }
 
 /*Navbar*/
 #mainHeader{
-    background-color: blueviolet;
+    
 }
 
 .navbar{
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    padding: 5px 5px;
+    margin: 50px 150px;
+
+    border: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0);
+    
+    
+}
+
+.navLinks{
+    float:none;
+    align-self: center;
+    justify-self: center;
+}
+
+.navLogo{
+
+    align-self: center;
+    justify-self: center;
+    width: 350px;
+    height:  auto;
+
+    
+}
+
+.search{
+
+    align-self: center;
+    justify-self: center;
 
 }
