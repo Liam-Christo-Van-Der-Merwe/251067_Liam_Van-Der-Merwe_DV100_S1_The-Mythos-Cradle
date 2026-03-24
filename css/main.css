@@ -1,51 +1,55 @@
 body{
 
-background-color: blue;
+    background-color: rgb(226, 226, 226);
+    margin: 0;
 
 }
 
 /*Navbar*/
 #mainHeader{
-    
+
+    background-color: rgb(139, 0, 0);
+    overflow: hidden;
 }
 
-.navbar{
+.navBar{
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(137, 100, 0);
+
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items:center;
    
-    padding: 5px 5px;
-    margin: 50px 150px;
+
+    padding: 20px 40px;
 
     border: 10px;
     border-style: solid;
-    border-radius: 25px;
     border-color: rgba(0, 0, 0, 0);
-    
+    border-radius: 25px;
     
 }
 
-.navLinks{
-    float:none;
-    align-self: center;
-    justify-self: center;
-}
-
-.navLogo{
-
-    align-self: center;
-    justify-self: center;
-    width: 350px;
-    height:  auto;
+.test{
 
     
 }
 
-.search{
+.test2{
 
-    align-self: center;
-    justify-self: center;
+    box-sizing: content-box;
+    width: 250px;
+    text-align: center;
+
+}
+
+
+.t3st{
+
+    box-sizing: content-box;
+    width: 250px;
+    text-align: center;
 
 }
