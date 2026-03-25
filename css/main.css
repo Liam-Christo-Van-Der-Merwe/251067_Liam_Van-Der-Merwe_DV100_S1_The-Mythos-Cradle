@@ -1,55 +1,250 @@
+
+    @font-face {
+    font-family: "Myth";
+    src: url("../assets/fonts/Mythology\ Of\ Egypt.ttf")
+}
+
+
 body{
 
     background-color: rgb(226, 226, 226);
     margin: 0;
+    font-family: "Poppins";
 
 }
 
 /*Navbar*/
 #mainHeader{
 
-    background-color: rgb(139, 0, 0);
+    background-image: url("/assets/images/homeHeader.png");
+    background-size:cover;
     overflow: hidden;
+    background-repeat: no-repeat;
+    height: 1080px;
+    text-align: end;
+    
 }
+
 
 .navBar{
 
-    background-color: rgb(137, 100, 0);
-
+    background-color: #ffffffb0;
     
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    align-items:center;
+    align-items: center;
    
-
-    padding: 20px 40px;
+    padding: 5px 40px;
+    margin: 50px 150px;
 
     border: 10px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0);
-    border-radius: 25px;
+    border-radius: 40px;
     
 }
 
-.test{
+.topLogo {
+   padding-top: 5px;
+}
 
+.navLinks{
+
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+
+.navLinks a{
+
+    color: #000000;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 18pt;
+    font-weight: 600;
+
+}
+
+.linkI:hover {
+
+    color: #15d5f5;
+}
+
+.searchBar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 55px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.searchItem{
+
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    color: #00000080;
     
 }
 
-.test2{
+.searchItem::placeholder{
 
-    box-sizing: content-box;
-    width: 250px;
-    text-align: center;
+   font-weight: 600;
+   color: #000000;
+    
+}
+
+.bar {
+
+    border-right: solid #00000042 2px;
 
 }
 
 
-.t3st{
+.searchItemI{
 
-    box-sizing: content-box;
-    width: 250px;
-    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+/*Header*/
+
+.intro{
+
+   margin-top: 450px;
+}
+
+.intro h1{
+
+    display: flex;
+    justify-self: end;
+    text-align: start;
+  
+
+    font-size: 96pt;
+    font-family: "Myth";
+    padding-right: 130px;
+    color: #e9ad1c;
 
 }
+
+.intro h2{
+
+    display: flex;
+    justify-self: end;
+    text-align: start;
+
+    padding-right: 140px;
+   
+
+    font-family: "Metamorphous";
+    color: #ffffff;
+    font-size: 24pt;
+}
+
+
+/*Blue Section*/
+
+.blueSection{
+
+    background-color: #002d68;
+    height: 1080px;
+}
+
+
+
+/*White Section*/
+
+.witSection{
+
+    background-color: #ffffff;
+    height: 900px;
+}
+
+
+/*Footer Section*/
+
+#endSection{
+
+    background-color: #ffffff;
+    height: 450px;
+
+
+}
+
+.endInfo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.fLeft{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.fLinks{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.fLinks h1{
+
+
+    font-weight: 600;
+}
+
+.fLinks a{
+
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+
+}
+
+.socialM{
+
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.socialM h1{
+
+    font-weight:600;
+
+}
+
+.socialImages{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+*/    
