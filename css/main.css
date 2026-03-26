@@ -13,6 +13,7 @@ body{
 }
 
 /*Navbar*/
+
 #mainHeader {
 
     background-image: url("/assets/images/homeHeader.png");
@@ -160,12 +161,18 @@ body{
 
 
 
-/*White Section*/
+/*White Sections*/
 
-.witSection {
+.witSectionI {
 
     background-color: #ffffff;
     height: 900px;
+}
+
+.witSectionII {
+
+    background-color: #ffffff;
+    height: 1080px;
 }
 
 
@@ -294,4 +301,18 @@ body{
    font-size: 16pt;
    font-weight: 500;
    color: #000000a2;
+}
+
+/*End of Home Page*/
+
+/*Start of the Adoption Page*/
+
+#adHead {
+
+    background-image: url("/assets/images/adoptHeader.png");
+    background-size: 540px;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    height: 1080px;
+    text-align: end;
 }
