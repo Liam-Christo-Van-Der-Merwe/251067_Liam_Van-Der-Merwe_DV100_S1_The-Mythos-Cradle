@@ -10,11 +10,10 @@ body{
     background-color: rgb(226, 226, 226);
     margin: 0;
     font-family: "Poppins";
-
 }
 
 /*Navbar*/
-#mainHeader{
+#mainHeader {
 
     background-image: url("/assets/images/homeHeader.png");
     background-size:cover;
@@ -22,41 +21,38 @@ body{
     background-repeat: no-repeat;
     height: 1080px;
     text-align: end;
-    
 }
 
 
-.navBar{
+.navBar {
 
     background-color: #ffffffb0;
     
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
+
    
-    padding: 5px 40px;
-    margin: 50px 150px;
+    margin: 50px 80px;
 
     border: 10px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0);
     border-radius: 40px;
-    
 }
 
 .topLogo {
+
    padding-top: 5px;
 }
 
-.navLinks{
+.navLinks {
 
     display: flex;
     flex-wrap: nowrap;
     text-align: center;
     justify-content: center;
-
-
 }
 
 
@@ -67,7 +63,6 @@ body{
     padding: 0px 20px;
     font-size: 18pt;
     font-weight: 600;
-
 }
 
 .linkI:hover {
@@ -75,43 +70,43 @@ body{
     color: #15d5f5;
 }
 
-.searchBar{
+.searchBar {
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
     background-color: white;
     height: 55px;
+
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0px;
 }
 
-.searchItem{
+.searchItem {
 
     background-color: #ffffff;
     border: none;
     font-size: 20px;
     color: #00000080;
-    
 }
 
 .searchItem::placeholder{
 
    font-weight: 600;
    color: #000000;
-    
 }
 
 .bar {
 
     border-right: solid #00000042 2px;
-
 }
 
 
-.searchItemI{
+.searchItemI {
 
     background-color: #ffffff;
     border: none;
@@ -121,7 +116,7 @@ body{
 
 /*Header*/
 
-.intro{
+.intro {
 
    margin-top: 450px;
 }
@@ -132,12 +127,11 @@ body{
     justify-self: end;
     text-align: start;
   
-
+    margin: 0px;
     font-size: 96pt;
     font-family: "Myth";
     padding-right: 130px;
     color: #e9ad1c;
-
 }
 
 .intro h2{
@@ -147,7 +141,8 @@ body{
     text-align: start;
 
     padding-right: 140px;
-   
+    
+    margin: 0px;
 
     font-family: "Metamorphous";
     color: #ffffff;
@@ -157,7 +152,7 @@ body{
 
 /*Blue Section*/
 
-.blueSection{
+.blueSection {
 
     background-color: #002d68;
     height: 1080px;
@@ -167,7 +162,7 @@ body{
 
 /*White Section*/
 
-.witSection{
+.witSection {
 
     background-color: #ffffff;
     height: 900px;
@@ -176,75 +171,127 @@ body{
 
 /*Footer Section*/
 
-#endSection{
+.endSection {
 
     background-color: #ffffff;
     height: 450px;
-
-
 }
 
-.endInfo{
+.endInfo {
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-
+    padding-top: 60px;
+    padding-left: 110px;
+    padding-right: 110px;
+   
+    margin-left: 60px;
 }
 
-.fLeft{
+.fLeft {
 
     display: flex;
     flex-direction: column;
     text-align: left;
 
+    box-sizing: content-box;
+    width: 540px;
 }
 
-.fLinks{
+.fLeft p{
+
+    font-size: 16pt;
+    font-weight: 400;
+    color: #000000a2;
+}
+
+.fLinks {
 
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 10px;
-
+    text-align: left;
+    gap: 20px;
 }
 
 .fLinks h1{
 
-
     font-weight: 600;
+    font-size: 18pt;
+
+    padding-bottom: 10px;
 }
 
-.fLinks a{
+.link2 {
 
     text-decoration: none;
-    font-weight: 600;
-    color: #000000;
-
+    font-weight: 500;
+    color:  #000000a2;
+    font-size: 16pt;
 }
 
-.socialM{
+.link2:hover{
+
+    text-decoration: none;
+    font-weight: 500;
+    color:   #15d5f5;
+    font-size: 16pt;
+}
+
+
+.socialM {
 
     display: flex;
     flex-direction: column;
-     
 }
 
 .socialM h1{
 
     font-weight:600;
-
+    font-size: 18pt;
+    padding-bottom: 30px;
 }
 
-.socialImages{
+.socialImages {
+
     display: flex;
     flex-direction: row;
     gap: 20px;
-
 }
 
-*/    
+
+.misc {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 16pt;
+    color: #0000007e;
+    
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 60px;
+   
+    border-top: 2px solid #00000027;
+}
+
+
+.lSide {
+
+    margin-left: -40px;
+    padding-top: 20px;
+}
+
+
+.rSide {
+
+   display: flex;
+    padding-top: 20px;
+   gap: 30px;
+
+   font-size: 16pt;
+   font-weight: 500;
+   color: #000000a2;
+}
