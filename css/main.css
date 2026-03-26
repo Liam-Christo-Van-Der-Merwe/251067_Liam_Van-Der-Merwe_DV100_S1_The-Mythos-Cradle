@@ -310,7 +310,7 @@ body{
 #adHead {
 
     background-image: url("/assets/images/adoptHeader.png");
-    background-size: 540px;
+    background-size:cover ;
     overflow: hidden;
     background-repeat:no-repeat;
     height: 1080px;
