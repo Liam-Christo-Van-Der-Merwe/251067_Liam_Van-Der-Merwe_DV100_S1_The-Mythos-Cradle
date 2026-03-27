@@ -97,8 +97,9 @@ body{
 
 .searchItem::placeholder{
 
-   font-weight: 600;
-   color: #000000;
+    font-family: "Poppins"; 
+    font-weight: 600;
+    color: #000000;
 }
 
 .bar {
@@ -465,7 +466,6 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
 
 #storiesTitle h2 {
@@ -482,7 +482,6 @@ body{
     margin: 0px;
     font-weight:700;
     font-size: 40pt;
-
 }
 
 #stories {
@@ -502,11 +501,9 @@ body{
     
     text-align: center;
     color: #ffffff;
-
-
 }
 
-.aStorie img{
+.aStorie img {
 
     border-radius: 25px;
     border: 1px solid #ffffff00;
@@ -530,37 +527,22 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    
-
-
 }
 
-#endButton button{
+#endButton button {
 
     font-family: "Poppins";
     height: 80px;
     font-size: 18pt;
     color: #ffffff;
-
 }
 
-#endButton p{
+#endButton p {
 
     margin: 0px;
 }
 
-
 /*End of Home Page*/
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -571,10 +553,66 @@ body{
 
 #adHead {
 
+    height: 1080px;
+    background-color: #15d5f5;
+    
+}
+
+#halfHeadA {
+
     background-image: url("/assets/images/adoptHeader.png");
-    background-size:cover ;
+    background-size: cover;
     overflow: hidden;
     background-repeat:no-repeat;
+    height: 540px; 
+    width: auto;
+    text-align: center;
+}
+
+#halfHeadA h1 {
+
+    font-family: "Myth";
+    font-size: 96pt;
+    color: #ffffff;
+}
+ 
+
+#halfHeadAII {
+
+    background-color: #002d68;
+    height: 420px;
+    text-align: center;
+
+}
+
+
+#halfHeadAII h1{
+
+    padding-top: 60px;
+    font-size: 40pt;
+    margin: 0px;
+    font-family: "metamorphous";
+    color: #e9ad1c;
+}
+
+#halfHeadAII p{
+
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+#orangeBar{
+
+height: 120px;
+background-color: #e9ad1c;
+}
+
+/*First section of adoption page - orange bar difficulties*/
+
+
+.adoptSlide{
+
+    background-color: #220070;
     height: 1080px;
-    text-align: end;
+
 }
